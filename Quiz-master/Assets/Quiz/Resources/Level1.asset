@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Regarder le video suivant
+    questionType: 3
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 32900000, guid: 5fe07b5f0d7b8a54ca6986e90dfc620b, type: 3}
+    options:
+    - next
+    - 2
+    - 3
+    - 4
+    correctAns: next
+  - questionInfo: Observez l image et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: ab40ca91886ede44fbea3c1af082c81e, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - il y a  1  poissons
+    - il y a  3  poissons
+    - il y a  4  poissons
+    - il y a  5  poissons
+    correctAns: il y a  1  poissons
+  - questionInfo: Observez l image et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: ab40ca91886ede44fbea3c1af082c81e, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - il y a  1  pomme
+    - il y a  3  pomme
+    - il y a  4  pomme
+    - il y a  2  pomme
+    correctAns: il y a  3  pomme
+  - questionInfo: Observez l image et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: ab40ca91886ede44fbea3c1af082c81e, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - il y a  1  etoile
+    - il y a  3  etoile
+    - il y a  5  etoile
+    - il y a  2  etoile
+    correctAns: il y a  5  etoile
+  - questionInfo: Observez l image et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: ab40ca91886ede44fbea3c1af082c81e, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - il y a  1  fraise
+    - il y a  3  fraise
+    - il y a  4  fraise
+    - il y a  2  fraise
+    correctAns: il y a  4  fraise
+  - questionInfo: Observez l image et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: ab40ca91886ede44fbea3c1af082c81e, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - il y a  1  fleurs
+    - il y a  3  fleurs
+    - il y a  4  fleurs
+    - il y a  2  fleurs
+    correctAns: il y a  2  fleurs
+  - questionInfo: Compter le nombres d'avions et bicyclette et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 7806f560c6d91304f9e5bb9a0ba508f9, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'il y a  4 avions et une bicyclette '
+    - 'il y a  2 avions et 4  bicyclette '
+    - 'il y a  3 avions et 3  bicyclette '
+    - 'il y a  2 avions et 3  bicyclette '
+    correctAns: 'il y a  2 avions et 3  bicyclette '
+  - questionInfo: Compter le nombres d elephant et poissons et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 609d5cff118483d4ea6fb1a5c3a9e823, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'il y a  2 elephant  et 4  poisson '
+    - 'il y a  1 elephant  et 3 poisson '
+    - 'il y a  3 elephant et 3  poisson '
+    - 'il y a  2 elephant et 3  poisson '
+    correctAns: 'il y a  1 elephant  et 3 poisson '
+  - questionInfo: Compter le nombres des fruits  et choisir la bonne reponse
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: bc0f9fb9646619d41abc20daf38364cf, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 'il y a 5 orange et 7 njas '
+    - 'il y a 5 orange et 8 njas '
+    - 'il y a 9 orange et 8 njas '
+    - 'il y a 7 orange et 8 njas '
+    correctAns: 'il y a 7 orange et 8 njas '

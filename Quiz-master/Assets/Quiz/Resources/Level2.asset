@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: e5e777f7925aef2459d216e463bd212f, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 3
+    - 2
+    - 1
+    - 4
+    correctAns: 3
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: cc08e020bbc7e6444a6d32f0375b9d79, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 3
+    - 2
+    - 1
+    - 4
+    correctAns: 2
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: f2c5f1d635078f54ea8e7d9d62f9a50d, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 3
+    - 2
+    - 5
+    - 4
+    correctAns: 5
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: fc3e943c8077d374bb0c2457092feb9b, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 3
+    - 2
+    - 5
+    - 4
+    correctAns: 3
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 600e68bb2685e1e428828c3afb86eb4c, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 3
+    - 2
+    - 5
+    - 4
+    correctAns: 4
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 7311a286871973049a54cced7d6cc1dc, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 8
+    - 5
+    - 4
+    - 10
+    correctAns: 10
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 6801d43ae94bf854a8e3667e504ef2c4, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 4 + 3 = 7
+    - 5  + 4 = 9
+    - 2 + 2 =4
+    - 6 + 2 = 8
+    correctAns: 4 + 3 = 7
+  - questionInfo: Il y a 1 cube orange et 4 cubes violets. Trouvez combien de cubes
+      il y a en tout.
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: c2ad942d904c38a41b3363d838c488b4, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1 + 4 = 5
+    - 1  + 3 = 4
+    - 2 + 4 = 6
+    - 4 + 4 = 8
+    correctAns: 1 + 4 = 5
+  - questionInfo: Il y a 3 cubes bleus et 3 cubes orange. Trouvez combien de cubes
+      il y a en tout.
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 857ce1c4937b0424997cfa450a3d0c90, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1 + 4 = 5
+    - 3  + 3 = 6
+    - 2 + 4 = 6
+    - 4 + 4 = 8
+    correctAns: 3  + 3 = 6
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: c41337c460592a84db7a0df1fdcf24ad, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1
+    - 2
+    - 2
+    - 3
+    correctAns: 1
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 2a7b6e44f63d6a844998431d6fda52d4, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1
+    - 2
+    - 2
+    - 3
+    correctAns: 2
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: ef1e38e24c6754b40a98a201f1fad5f3, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 2
+    - 3
+    - 1
+    - 4
+    correctAns: 2
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: f15efe40c53f0df418a3946380bad7b1, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 3
+    - 2
+    - 1
+    - 5
+    correctAns: 3
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 0340d8cbd4d6a9345a257d9a86200f13, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 3
+    - 4
+    - 1
+    - 5
+    correctAns: 3
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 72ffb96b588444f4cae796a9dbe7a727, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1
+    - 2
+    - 2
+    - 3
+    correctAns: 1
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 010a2c2167baa50498528ac8bd86522b, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 4
+    - 3
+    - 3
+    - 7
+    correctAns: 4
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: cd250902ab692eb468a56f53a31b9cb9, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 0
+    - 1
+    - 2
+    - 3
+    correctAns: 0
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 2c58a8e73af63a04f92adb72e4d22b3c, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Le nombres des cercles orange est 10 plus grand que le nombre des cercles blue
+      qui est 7 .
+    - Le nombres des cercles orange est 10 plus petit que le nombre des cercles blue
+      qui est 7 .
+    - Le nombres des cercles orange est 10 egale au nombre des cercles blue qui est
+      7 .
+    - Le nombres des cercles orange est 9 plus grand que le nombre des cercles blue
+      qui est 7 .
+    correctAns: Le nombres des cercles orange est 10 plus grand que le nombre des
+      cercles blue qui est 7 .
+  - questionInfo: 'Choisir la bonne reponse : '
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: c91694c37de00dd458524a928eb16385, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Le nombres des quarr\xE9s est 8 plus petit que le nombre des \xE9toiles qui
+      est 9 ."
+    - "Le nombres des quarr\xE9s est 8 plus grand que le nombre des \xE9toiles qui
+      est 9 ."
+    - "Le nombres des quarr\xE9s est 8 egale au nombre des \xE9toiles qui est 9 ."
+    - "Le nombres des quarr\xE9s est 10 plus petit que le nombre des \xE9toiles qui
+      est 9 ."
+    correctAns: "Le nombres des quarr\xE9s est 8 plus petit que le nombre des \xE9toiles
+      qui est 9 ."

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: "Choisir la bonne reponse qui correspond \xE0 l'histoire."
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: b6a234ec905c91c48a84d70bfacc1f46, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 2
+    - 5
+    - 3
+    - 4
+    correctAns: 4
+  - questionInfo: "Choisir la bonne reponse qui correspond \xE0 l'histoire."
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: d8e3cd3812648274080502db42c22c15, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 6
+    - 5
+    - 3
+    - 8
+    correctAns: 5
+  - questionInfo: "Choisir la bonne reponse qui correspond \xE0 l'histoire."
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 11dfb00fbf38a1d42bc608754fa32c56, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 6
+    - 5
+    - 3
+    - 8
+    correctAns: 6
+  - questionInfo: "Choisir la bonne reponse qui correspond \xE0 l'histoire."
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 340e339d8d14c084abecd405c3ee7ba0, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 6
+    - 5
+    - 3
+    - 8
+    correctAns: 6
+  - questionInfo: "Choisir la bonne reponse qui correspond \xE0 l'histoire."
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: e6da3ea905bf6104b86664e820a5d1a5, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 6
+    - 5
+    - 4
+    - 8
+    correctAns: 4
+  - questionInfo: "Choisir la bonne reponse qui correspond \xE0 l'histoire."
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: a852f86905d751d4fab954333766c15c, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "le nombre de boite renvers\xE9 par Nina est plus grand que le nombre renvers\xE9
+      par Dana."
+    - "le nombre de boite renvers\xE9 par Dana est plus grand que le nombre renvers\xE9
+      par Nina."
+    - "le nombre de boite renvers\xE9 par Nina est egale au  nombre renvers\xE9 par
+      Dana."
+    - "le nombre de boite renvers\xE9 par Nina est egale au  nombre renvers\xE9 par
+      Dana."
+    correctAns: "le nombre de boite renvers\xE9 par Dana est plus grand que le nombre
+      renvers\xE9 par Nina."
